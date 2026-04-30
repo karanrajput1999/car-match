@@ -1,0 +1,2621 @@
+[
+  {
+    "id": "maruti-swift",
+    "name": "Maruti Suzuki Swift",
+    "brand": "Maruti Suzuki",
+    "price_min": 699000,
+    "price_max": 999000,
+    "price_display": "₹6.99L – ₹9.99L",
+    "body_type": "Hatchback",
+    "fuel": [
+      "Petrol",
+      "CNG"
+    ],
+    "mileage_kmpl": 23.2,
+    "seating": 5,
+    "safety_rating": 3,
+    "transmission": [
+      "Manual",
+      "AMT"
+    ],
+    "use_case": [
+      "city",
+      "mixed"
+    ],
+    "segment": "budget",
+    "boot_space_litres": 268,
+    "engine_cc": 1197,
+    "variants": [
+      {
+        "name": "LXi",
+        "price": 699000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "Manual AC",
+          "Basic music system"
+        ],
+        "is_base": true
+      },
+      {
+        "name": "VXi",
+        "price": 749000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "Touchscreen infotainment",
+          "Rear parking sensors",
+          "USB connectivity"
+        ]
+      },
+      {
+        "name": "ZXi",
+        "price": 849000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "LED headlamps",
+          "Alloy wheels",
+          "Automatic climate control"
+        ]
+      },
+      {
+        "name": "ZXi+",
+        "price": 899000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "360 camera",
+          "Heads-up display",
+          "6 airbags"
+        ],
+        "is_top": true
+      },
+      {
+        "name": "ZXi AMT",
+        "price": 949000,
+        "fuel_type": "Petrol",
+        "transmission": "AMT",
+        "key_features": [
+          "Automatic gearbox",
+          "LED headlamps",
+          "Alloy wheels"
+        ]
+      },
+      {
+        "name": "ZXi+ AMT",
+        "price": 999000,
+        "fuel_type": "Petrol",
+        "transmission": "AMT",
+        "key_features": [
+          "Automatic + all top features",
+          "360 camera",
+          "6 airbags"
+        ]
+      }
+    ],
+    "pros": [
+      "Excellent fuel efficiency",
+      "Lowest maintenance cost in segment",
+      "Widest service network in India",
+      "Peppy city driving experience"
+    ],
+    "cons": [
+      "No rear AC vents",
+      "Basic safety in lower variants",
+      "Small boot space"
+    ],
+    "best_for": "Young professionals and first-time buyers looking for a fun, low-cost city car",
+    "tags": [
+      "budget",
+      "city",
+      "fuel-efficient",
+      "first-car",
+      "low-maintenance"
+    ],
+    "reviews": [
+      {
+        "author": "Amit K., Mumbai",
+        "rating": 5,
+        "text": "3 years in and not a single major issue. Mileage is consistently 22+ in city. Service costs are laughably cheap compared to my friend's Hyundai.",
+        "use_case": "Daily city commute"
+      },
+      {
+        "author": "Sneha R., Pune",
+        "rating": 4,
+        "text": "Perfect first car. Easy to park, cheap to run, and the ZXi+ has enough features to feel premium. Only wish the rear seats had AC vents.",
+        "use_case": "First car, city use"
+      },
+      {
+        "author": "Rajan P., Chennai",
+        "rating": 4,
+        "text": "Bought the CNG variant — running cost is under ₹1.5 per km. For a cab driver like me, nothing beats the Swift in this price range.",
+        "use_case": "Commercial city driving"
+      }
+    ],
+    "image_url": "https://source.unsplash.com/800x500/?Maruti+Swift+car"
+  },
+  {
+    "id": "hyundai-i20",
+    "name": "Hyundai i20",
+    "brand": "Hyundai",
+    "price_min": 749000,
+    "price_max": 1299000,
+    "price_display": "₹7.49L – ₹12.99L",
+    "body_type": "Hatchback",
+    "fuel": [
+      "Petrol",
+      "Diesel"
+    ],
+    "mileage_kmpl": 20.35,
+    "seating": 5,
+    "safety_rating": 4,
+    "transmission": [
+      "Manual",
+      "IVT",
+      "DCT"
+    ],
+    "use_case": [
+      "city",
+      "mixed"
+    ],
+    "segment": "premium-hatchback",
+    "boot_space_litres": 311,
+    "engine_cc": 1197,
+    "variants": [
+      {
+        "name": "Era",
+        "price": 749000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "Basic AC",
+          "Manual windows",
+          "No touchscreen"
+        ],
+        "is_base": true
+      },
+      {
+        "name": "Magna",
+        "price": 849000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "8-inch touchscreen",
+          "Rear camera",
+          "Bluetooth"
+        ]
+      },
+      {
+        "name": "Sportz",
+        "price": 999000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "10.25-inch touchscreen",
+          "Wireless charging",
+          "Sunroof"
+        ]
+      },
+      {
+        "name": "Sportz IVT",
+        "price": 1099000,
+        "fuel_type": "Petrol",
+        "transmission": "IVT",
+        "key_features": [
+          "CVT automatic",
+          "Sunroof",
+          "10.25-inch screen"
+        ]
+      },
+      {
+        "name": "Asta",
+        "price": 1149000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "Bose audio",
+          "LED headlamps",
+          "Ventilated front seats"
+        ]
+      },
+      {
+        "name": "Asta (O) Turbo DCT",
+        "price": 1299000,
+        "fuel_type": "Petrol",
+        "transmission": "DCT",
+        "key_features": [
+          "1.0 Turbo engine",
+          "DCT automatic",
+          "All premium features"
+        ],
+        "is_top": true
+      }
+    ],
+    "pros": [
+      "Premium interior feel",
+      "Sunroof available",
+      "Large touchscreen infotainment",
+      "Strong resale value"
+    ],
+    "cons": [
+      "Pricier than competitors",
+      "Slightly firm ride on bad roads"
+    ],
+    "best_for": "Young buyers who want a premium, feature-loaded hatchback without stepping into SUV territory",
+    "tags": [
+      "premium",
+      "city",
+      "features",
+      "sunroof",
+      "stylish"
+    ],
+    "reviews": [
+      {
+        "author": "Vikram S., Bangalore",
+        "rating": 5,
+        "text": "The Asta O Turbo is an absolute rocket. 120bhp in a hatchback is insane fun. Features like Bose audio and ventilated seats make it feel like a luxury car.",
+        "use_case": "Weekend fun + city commute"
+      },
+      {
+        "author": "Meera T., Delhi",
+        "rating": 4,
+        "text": "Sportz IVT with sunroof is my sweet spot — feature packed and automatic. Highway mileage drops a bit but city mileage is solid at 18+.",
+        "use_case": "Mixed city and highway"
+      },
+      {
+        "author": "Karthik N., Hyderabad",
+        "rating": 3,
+        "text": "Good car overall but the ride on bad roads is too stiff. Hyundai should have tuned the suspension better. Service cost is also higher than Maruti.",
+        "use_case": "City daily driver"
+      }
+    ],
+    "image_url": "https://source.unsplash.com/800x500/?Hyundai+i20+hatchback"
+  },
+  {
+    "id": "tata-tiago",
+    "name": "Tata Tiago",
+    "brand": "Tata",
+    "price_min": 549000,
+    "price_max": 849000,
+    "price_display": "₹5.49L – ₹8.49L",
+    "body_type": "Hatchback",
+    "fuel": [
+      "Petrol",
+      "CNG"
+    ],
+    "mileage_kmpl": 19.8,
+    "seating": 5,
+    "safety_rating": 4,
+    "transmission": [
+      "Manual",
+      "AMT"
+    ],
+    "use_case": [
+      "city"
+    ],
+    "segment": "budget",
+    "boot_space_litres": 242,
+    "engine_cc": 1199,
+    "variants": [
+      {
+        "name": "XE",
+        "price": 549000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "Manual AC",
+          "Basic stereo",
+          "Power windows"
+        ],
+        "is_base": true
+      },
+      {
+        "name": "XT",
+        "price": 649000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "7-inch touchscreen",
+          "Rear camera",
+          "Bluetooth"
+        ]
+      },
+      {
+        "name": "XZ",
+        "price": 699000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "Alloy wheels",
+          "Auto headlamps",
+          "Wireless charging"
+        ]
+      },
+      {
+        "name": "XZ+",
+        "price": 749000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "LED DRLs",
+          "Sunroof",
+          "iRA connected tech"
+        ],
+        "is_top": true
+      },
+      {
+        "name": "XZ+ AMT",
+        "price": 799000,
+        "fuel_type": "Petrol",
+        "transmission": "AMT",
+        "key_features": [
+          "AMT automatic",
+          "Sunroof",
+          "iRA connected tech"
+        ]
+      },
+      {
+        "name": "XZ+ CNG",
+        "price": 849000,
+        "fuel_type": "CNG",
+        "transmission": "Manual",
+        "key_features": [
+          "Factory-fitted CNG",
+          "iRA connected tech",
+          "All top features"
+        ]
+      }
+    ],
+    "pros": [
+      "4-star Global NCAP safety rating",
+      "Most affordable safe car in India",
+      "Solid build quality for price",
+      "Good feature list at entry level"
+    ],
+    "cons": [
+      "Underpowered engine",
+      "Basic interiors",
+      "Not ideal for highways"
+    ],
+    "best_for": "Safety-conscious buyers on a tight budget who need a reliable city car",
+    "tags": [
+      "budget",
+      "safe",
+      "city",
+      "first-car",
+      "value-for-money"
+    ],
+    "reviews": [
+      {
+        "author": "Deepa M., Nagpur",
+        "rating": 5,
+        "text": "Safest car at this budget — period. After the NCAP score came out, I was sold. Tata has really improved quality and the iRA app is genuinely useful.",
+        "use_case": "Safe first car for family"
+      },
+      {
+        "author": "Suresh B., Coimbatore",
+        "rating": 4,
+        "text": "CNG variant is brilliant for my 40km daily commute. Running cost is just ₹1.2/km. Only downside is the boot space shrinks with the CNG kit.",
+        "use_case": "Long daily commute on CNG"
+      },
+      {
+        "author": "Neha J., Jaipur",
+        "rating": 4,
+        "text": "Great value for money. The XZ+ has a sunroof which is unheard of at this price point. Highway driving above 100kmph feels a bit nervous though.",
+        "use_case": "City + occasional highway"
+      }
+    ],
+    "image_url": "https://source.unsplash.com/800x500/?Tata+Tiago+car"
+  },
+  {
+    "id": "maruti-alto-k10",
+    "name": "Maruti Suzuki Alto K10",
+    "brand": "Maruti Suzuki",
+    "price_min": 399000,
+    "price_max": 599000,
+    "price_display": "₹3.99L – ₹5.99L",
+    "body_type": "Hatchback",
+    "fuel": [
+      "Petrol",
+      "CNG"
+    ],
+    "mileage_kmpl": 24.9,
+    "seating": 5,
+    "safety_rating": 2,
+    "transmission": [
+      "Manual",
+      "AMT"
+    ],
+    "use_case": [
+      "city"
+    ],
+    "segment": "budget",
+    "boot_space_litres": 214,
+    "engine_cc": 998,
+    "variants": [
+      {
+        "name": "Std",
+        "price": 399000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "Basic AC",
+          "No power windows"
+        ],
+        "is_base": true
+      },
+      {
+        "name": "LXi",
+        "price": 449000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "Power windows",
+          "Central locking",
+          "Basic stereo"
+        ]
+      },
+      {
+        "name": "VXi",
+        "price": 499000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "7-inch touchscreen",
+          "Rear camera",
+          "Bluetooth"
+        ]
+      },
+      {
+        "name": "VXi+",
+        "price": 549000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "Alloy wheels",
+          "Dual airbags",
+          "ABS"
+        ],
+        "is_top": true
+      },
+      {
+        "name": "VXi+ AMT",
+        "price": 599000,
+        "fuel_type": "Petrol",
+        "transmission": "AMT",
+        "key_features": [
+          "Automatic gearbox",
+          "Alloy wheels",
+          "Dual airbags"
+        ]
+      }
+    ],
+    "pros": [
+      "Cheapest new car in India",
+      "Extremely low running cost",
+      "Easy to park in tight spaces",
+      "Widest Maruti service network"
+    ],
+    "cons": [
+      "Poor crash safety rating",
+      "Very basic features",
+      "Underpowered on highways",
+      "Not suitable for long trips"
+    ],
+    "best_for": "Buyers who need basic city transport at the lowest possible cost",
+    "tags": [
+      "cheapest",
+      "city",
+      "low-cost",
+      "easy-parking",
+      "commuter"
+    ],
+    "reviews": [
+      {
+        "author": "Ramesh G., Indore",
+        "rating": 5,
+        "text": "My second Alto — I know it's basic but it does what it's meant to do. 25kmpl in CNG mode, zero breakdowns in 2 years, and servicing costs almost nothing.",
+        "use_case": "Daily short city commute"
+      },
+      {
+        "author": "Kavitha L., Mysore",
+        "rating": 3,
+        "text": "Perfect for the city but don't try taking it on the highway. Above 90kmph the engine strains badly. Safety rating is also a concern if you have kids.",
+        "use_case": "In-city errands only"
+      },
+      {
+        "author": "Pavan R., Vizag",
+        "rating": 4,
+        "text": "Best car for someone who just needs wheels in the city. My wife drives it for school pickups. Easy to drive, easy to park, cheap to maintain.",
+        "use_case": "School runs and errands"
+      }
+    ],
+    "image_url": "https://source.unsplash.com/800x500/?Maruti+Alto+car"
+  },
+  {
+    "id": "renault-kwid",
+    "name": "Renault Kwid",
+    "brand": "Renault",
+    "price_min": 460000,
+    "price_max": 680000,
+    "price_display": "₹4.60L – ₹6.80L",
+    "body_type": "Hatchback",
+    "fuel": [
+      "Petrol"
+    ],
+    "mileage_kmpl": 22.3,
+    "seating": 5,
+    "safety_rating": 2,
+    "transmission": [
+      "Manual",
+      "AMT"
+    ],
+    "use_case": [
+      "city"
+    ],
+    "segment": "budget",
+    "boot_space_litres": 279,
+    "engine_cc": 999,
+    "variants": [
+      {
+        "name": "STD",
+        "price": 460000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "Manual AC",
+          "Basic stereo"
+        ],
+        "is_base": true
+      },
+      {
+        "name": "RXE",
+        "price": 519000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "Power windows",
+          "Digital cluster",
+          "Bluetooth"
+        ]
+      },
+      {
+        "name": "RXL",
+        "price": 569000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "8-inch touchscreen",
+          "Rear camera",
+          "Navigation"
+        ]
+      },
+      {
+        "name": "RXT",
+        "price": 619000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "LED DRLs",
+          "Rear wiper",
+          "Body-colored bumpers"
+        ],
+        "is_top": true
+      },
+      {
+        "name": "RXT AMT",
+        "price": 680000,
+        "fuel_type": "Petrol",
+        "transmission": "AMT",
+        "key_features": [
+          "Automatic gearbox",
+          "LED DRLs",
+          "All RXT features"
+        ]
+      }
+    ],
+    "pros": [
+      "SUV-styled design at hatchback price",
+      "Higher ground clearance than competitors",
+      "Digital instrument cluster",
+      "Good boot space for size"
+    ],
+    "cons": [
+      "1-star safety rating",
+      "No airbags in base variant",
+      "Limited service centres outside metros"
+    ],
+    "best_for": "Style-conscious buyers on a tight budget who do mostly city driving",
+    "tags": [
+      "budget",
+      "stylish",
+      "city",
+      "ground-clearance"
+    ],
+    "reviews": [
+      {
+        "author": "Anand T., Surat",
+        "rating": 4,
+        "text": "Looks like a mini SUV and everyone asks about it. Ground clearance is genuinely better than other cars at this price — handles Mumbai's bad roads well.",
+        "use_case": "City driving on bad roads"
+      },
+      {
+        "author": "Preethi V., Kochi",
+        "rating": 3,
+        "text": "Good styling and mileage but the safety rating genuinely worries me. Wish Renault had put at least 2 airbags in the base variant.",
+        "use_case": "City commute"
+      },
+      {
+        "author": "Manish C., Ahmedabad",
+        "rating": 4,
+        "text": "Great value buy. The AMT version is smooth in city traffic. Renault service can be slow but costs are reasonable. Happy overall for the price paid.",
+        "use_case": "Office commute + weekend use"
+      }
+    ],
+    "image_url": "https://source.unsplash.com/800x500/?Renault+Kwid+car"
+  },
+  {
+    "id": "tata-nexon",
+    "name": "Tata Nexon",
+    "brand": "Tata",
+    "price_min": 850000,
+    "price_max": 1550000,
+    "price_display": "₹8.50L – ₹15.50L",
+    "body_type": "Compact SUV",
+    "fuel": [
+      "Petrol",
+      "Diesel"
+    ],
+    "mileage_kmpl": 17.4,
+    "seating": 5,
+    "safety_rating": 5,
+    "transmission": [
+      "Manual",
+      "AMT",
+      "DCT"
+    ],
+    "use_case": [
+      "city",
+      "mixed",
+      "highway"
+    ],
+    "segment": "compact-suv",
+    "boot_space_litres": 350,
+    "engine_cc": 1497,
+    "variants": [
+      {
+        "name": "Smart",
+        "price": 850000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "Dual airbags",
+          "ABS",
+          "7-inch screen"
+        ],
+        "is_base": true
+      },
+      {
+        "name": "Pure",
+        "price": 999000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "4 airbags",
+          "10.25-inch screen",
+          "Wireless charging"
+        ]
+      },
+      {
+        "name": "Creative",
+        "price": 1149000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "6 airbags",
+          "Sunroof",
+          "Ventilated seats",
+          "360 camera"
+        ]
+      },
+      {
+        "name": "Fearless",
+        "price": 1299000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "ADAS",
+          "JBL audio",
+          "Panoramic sunroof"
+        ],
+        "is_top": true
+      },
+      {
+        "name": "Creative S DCT",
+        "price": 1349000,
+        "fuel_type": "Petrol",
+        "transmission": "DCT",
+        "key_features": [
+          "DCT automatic",
+          "6 airbags",
+          "Sunroof"
+        ]
+      },
+      {
+        "name": "Fearless+ Diesel",
+        "price": 1550000,
+        "fuel_type": "Diesel",
+        "transmission": "Manual",
+        "key_features": [
+          "Diesel engine",
+          "ADAS",
+          "All top features"
+        ]
+      }
+    ],
+    "pros": [
+      "5-star Global NCAP — safest in class",
+      "Strong turbocharged petrol engine",
+      "Premium interior with panoramic sunroof",
+      "Good highway stability"
+    ],
+    "cons": [
+      "AMT gearbox can feel jerky",
+      "Diesel variant pricier than rivals",
+      "Rear seat comfort could be better"
+    ],
+    "best_for": "Safety-conscious urban families who want the safest compact SUV in India",
+    "tags": [
+      "safest",
+      "family",
+      "city",
+      "highway",
+      "5-star-ncap",
+      "compact-suv"
+    ],
+    "reviews": [
+      {
+        "author": "Sanjay M., Delhi",
+        "rating": 5,
+        "text": "5-star NCAP sealed the deal for me. Had a minor accident — car absorbed the impact brilliantly, everyone walked out fine. Worth every rupee for safety alone.",
+        "use_case": "Family safety priority"
+      },
+      {
+        "author": "Rohini D., Bangalore",
+        "rating": 5,
+        "text": "The Fearless+ variant is loaded — ADAS, JBL audio, panoramic sunroof. Feels like a car worth double its price. Turbo engine is punchy in city traffic.",
+        "use_case": "City + highway mixed use"
+      },
+      {
+        "author": "Firoz K., Hyderabad",
+        "rating": 3,
+        "text": "Great car but AMT gearbox is genuinely bad in stop-and-go traffic. Paid extra to get the DCT and never looked back. Don't buy the AMT version.",
+        "use_case": "City commute"
+      }
+    ],
+    "image_url": "https://source.unsplash.com/800x500/?Tata+Nexon+SUV"
+  },
+  {
+    "id": "hyundai-venue",
+    "name": "Hyundai Venue",
+    "brand": "Hyundai",
+    "price_min": 799000,
+    "price_max": 1399000,
+    "price_display": "₹7.99L – ₹13.99L",
+    "body_type": "Compact SUV",
+    "fuel": [
+      "Petrol",
+      "Diesel",
+      "CNG"
+    ],
+    "mileage_kmpl": 18.15,
+    "seating": 5,
+    "safety_rating": 4,
+    "transmission": [
+      "Manual",
+      "iMT",
+      "DCT"
+    ],
+    "use_case": [
+      "city",
+      "mixed"
+    ],
+    "segment": "compact-suv",
+    "boot_space_litres": 350,
+    "engine_cc": 1197,
+    "variants": [
+      {
+        "name": "E",
+        "price": 799000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "Dual airbags",
+          "ABS",
+          "Manual AC"
+        ],
+        "is_base": true
+      },
+      {
+        "name": "S",
+        "price": 899000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "8-inch screen",
+          "Rear camera",
+          "BlueLink connected"
+        ]
+      },
+      {
+        "name": "S+",
+        "price": 999000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "6 airbags",
+          "Auto AC",
+          "Alloy wheels"
+        ]
+      },
+      {
+        "name": "SX",
+        "price": 1149000,
+        "fuel_type": "Petrol",
+        "transmission": "iMT",
+        "key_features": [
+          "10.25-inch screen",
+          "Sunroof",
+          "Wireless charging"
+        ]
+      },
+      {
+        "name": "SX(O) Turbo DCT",
+        "price": 1399000,
+        "fuel_type": "Petrol",
+        "transmission": "DCT",
+        "key_features": [
+          "1.0 Turbo engine",
+          "ADAS",
+          "Bose audio",
+          "All features"
+        ],
+        "is_top": true
+      },
+      {
+        "name": "S CNG",
+        "price": 999000,
+        "fuel_type": "CNG",
+        "transmission": "Manual",
+        "key_features": [
+          "Factory CNG",
+          "8-inch screen",
+          "BlueLink"
+        ]
+      }
+    ],
+    "pros": [
+      "Connected car features via BlueLink",
+      "Available in CNG for low running cost",
+      "Sporty design with great feature set",
+      "Reliable Hyundai service network"
+    ],
+    "cons": [
+      "Back seat is a bit cramped",
+      "No diesel automatic option",
+      "Smaller engine than some rivals"
+    ],
+    "best_for": "Tech-savvy city buyers who want connected car features and good daily mileage",
+    "tags": [
+      "connected-car",
+      "city",
+      "tech-features",
+      "cng",
+      "compact-suv"
+    ],
+    "reviews": [
+      {
+        "author": "Aditya V., Pune",
+        "rating": 5,
+        "text": "BlueLink is genuinely useful — I can start the AC from my phone before I reach the parking lot in summer. The SX(O) Turbo is fast and fun to drive.",
+        "use_case": "Tech-focused city use"
+      },
+      {
+        "author": "Lakshmi S., Chennai",
+        "rating": 4,
+        "text": "CNG variant saves me around ₹4000/month in fuel. Factory CNG is much better than aftermarket. Only gripe is the tight rear seat for tall passengers.",
+        "use_case": "Long daily commute on CNG"
+      },
+      {
+        "author": "Nikhil B., Gurgaon",
+        "rating": 4,
+        "text": "Solid all-rounder. Good enough for weekend highway trips too. The ADAS on the top variant is a nice safety bonus. Hyundai's service is prompt.",
+        "use_case": "City + occasional highway"
+      }
+    ],
+    "image_url": "https://source.unsplash.com/800x500/?Hyundai+Venue+SUV"
+  },
+  {
+    "id": "maruti-brezza",
+    "name": "Maruti Suzuki Brezza",
+    "brand": "Maruti Suzuki",
+    "price_min": 849000,
+    "price_max": 1499000,
+    "price_display": "₹8.49L – ₹14.99L",
+    "body_type": "Compact SUV",
+    "fuel": [
+      "Petrol",
+      "CNG"
+    ],
+    "mileage_kmpl": 19.8,
+    "seating": 5,
+    "safety_rating": 4,
+    "transmission": [
+      "Manual",
+      "AT"
+    ],
+    "use_case": [
+      "city",
+      "mixed"
+    ],
+    "segment": "compact-suv",
+    "boot_space_litres": 328,
+    "engine_cc": 1462,
+    "variants": [
+      {
+        "name": "LXi",
+        "price": 849000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "Dual airbags",
+          "ABS",
+          "Manual AC"
+        ],
+        "is_base": true
+      },
+      {
+        "name": "VXi",
+        "price": 999000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "9-inch SmartPlay Pro+",
+          "Rear camera",
+          "Auto AC"
+        ]
+      },
+      {
+        "name": "ZXi",
+        "price": 1149000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "Sunroof",
+          "LED headlamps",
+          "6 airbags",
+          "Alloy wheels"
+        ]
+      },
+      {
+        "name": "ZXi+",
+        "price": 1299000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "HUD",
+          "360 camera",
+          "Wireless charging",
+          "Ambient lighting"
+        ],
+        "is_top": true
+      },
+      {
+        "name": "ZXi AT",
+        "price": 1349000,
+        "fuel_type": "Petrol",
+        "transmission": "AT",
+        "key_features": [
+          "Smooth automatic",
+          "Sunroof",
+          "LED headlamps"
+        ]
+      },
+      {
+        "name": "ZXi+ AT",
+        "price": 1499000,
+        "fuel_type": "Petrol",
+        "transmission": "AT",
+        "key_features": [
+          "AT + all top features",
+          "HUD",
+          "360 camera"
+        ]
+      }
+    ],
+    "pros": [
+      "Best resale value in compact SUV segment",
+      "Widest Maruti service network",
+      "Smooth automatic gearbox",
+      "Practical and spacious"
+    ],
+    "cons": [
+      "No diesel variant",
+      "Engine feels less punchy than rivals",
+      "Basic exterior design"
+    ],
+    "best_for": "Practical buyers who prioritise low long-term ownership cost and wide service availability",
+    "tags": [
+      "low-maintenance",
+      "resale-value",
+      "city",
+      "practical",
+      "compact-suv"
+    ],
+    "reviews": [
+      {
+        "author": "Girish N., Mysore",
+        "rating": 5,
+        "text": "2 years, 45,000 km, zero major issues. Resale value is insane — my friend sold his 2-year-old Brezza for almost the same price he paid. Maruti service is everywhere.",
+        "use_case": "High-mileage daily driver"
+      },
+      {
+        "author": "Shweta P., Nagpur",
+        "rating": 4,
+        "text": "The AT gearbox is the best in its class — smooth and responsive. Sunroof in the ZXi is a great feature. Mileage at 19+ is genuinely class leading.",
+        "use_case": "City commute + highway"
+      },
+      {
+        "author": "Tarun M., Jaipur",
+        "rating": 3,
+        "text": "Reliable and practical but it lacks the excitement of the Nexon. No diesel is a big miss for highway driving. Good if you want no headaches, boring if you want fun.",
+        "use_case": "Practical family use"
+      }
+    ],
+    "image_url": "https://source.unsplash.com/800x500/?Maruti+Brezza+SUV"
+  },
+  {
+    "id": "kia-sonet",
+    "name": "Kia Sonet",
+    "brand": "Kia",
+    "price_min": 799000,
+    "price_max": 1599000,
+    "price_display": "₹7.99L – ₹15.99L",
+    "body_type": "Compact SUV",
+    "fuel": [
+      "Petrol",
+      "Diesel"
+    ],
+    "mileage_kmpl": 18.2,
+    "seating": 5,
+    "safety_rating": 4,
+    "transmission": [
+      "Manual",
+      "iMT",
+      "DCT",
+      "AT"
+    ],
+    "use_case": [
+      "city",
+      "mixed",
+      "highway"
+    ],
+    "segment": "compact-suv",
+    "boot_space_litres": 392,
+    "engine_cc": 1197,
+    "variants": [
+      {
+        "name": "HTE",
+        "price": 799000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "Dual airbags",
+          "ABS",
+          "Basic AC"
+        ],
+        "is_base": true
+      },
+      {
+        "name": "HTK",
+        "price": 949000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "8-inch screen",
+          "Rear camera",
+          "Wireless charger"
+        ]
+      },
+      {
+        "name": "HTK+",
+        "price": 1099000,
+        "fuel_type": "Petrol",
+        "transmission": "iMT",
+        "key_features": [
+          "10.25-inch screen",
+          "Sunroof",
+          "Bose audio"
+        ]
+      },
+      {
+        "name": "HTX",
+        "price": 1249000,
+        "fuel_type": "Petrol",
+        "transmission": "DCT",
+        "key_features": [
+          "DCT automatic",
+          "Ventilated seats",
+          "6 airbags"
+        ]
+      },
+      {
+        "name": "HTX+",
+        "price": 1399000,
+        "fuel_type": "Petrol",
+        "transmission": "DCT",
+        "key_features": [
+          "ADAS",
+          "360 camera",
+          "UVO connected",
+          "All features"
+        ],
+        "is_top": true
+      },
+      {
+        "name": "HTX Diesel AT",
+        "price": 1599000,
+        "fuel_type": "Diesel",
+        "transmission": "AT",
+        "key_features": [
+          "Diesel automatic",
+          "Largest boot 392L",
+          "Ventilated seats"
+        ]
+      }
+    ],
+    "pros": [
+      "Largest boot space in segment (392L)",
+      "Premium Bose sound system",
+      "Most transmission options available",
+      "Feature-loaded top variants"
+    ],
+    "cons": [
+      "Smaller rear cabin",
+      "Kia service network smaller than Maruti/Hyundai",
+      "Pricier at the top"
+    ],
+    "best_for": "Feature-hungry buyers who want a premium compact SUV with maximum boot space",
+    "tags": [
+      "premium",
+      "features",
+      "boot-space",
+      "compact-suv",
+      "highway"
+    ],
+    "reviews": [
+      {
+        "author": "Harsh G., Mumbai",
+        "rating": 5,
+        "text": "HTX+ is the most feature-loaded car at this price in India. ADAS, Bose audio, 360 camera, ventilated seats — it has everything. Looks premium inside.",
+        "use_case": "Feature-focused buyer"
+      },
+      {
+        "author": "Divya R., Bangalore",
+        "rating": 4,
+        "text": "Boot space is genuinely massive — fits all our luggage for 5 people on long trips. Diesel AT is smooth and efficient on highways. Great road trip car.",
+        "use_case": "Family road trips"
+      },
+      {
+        "author": "Sameer K., Delhi",
+        "rating": 3,
+        "text": "Amazing features but the rear seat is tight for 3 adults. Also there are only 2 Kia service centres in my city — can be a problem during busy periods.",
+        "use_case": "City + highway"
+      }
+    ],
+    "image_url": "https://source.unsplash.com/800x500/?Kia+Sonet+SUV"
+  },
+  {
+    "id": "hyundai-creta",
+    "name": "Hyundai Creta",
+    "brand": "Hyundai",
+    "price_min": 1100000,
+    "price_max": 2000000,
+    "price_display": "₹11L – ₹20L",
+    "body_type": "Mid SUV",
+    "fuel": [
+      "Petrol",
+      "Diesel"
+    ],
+    "mileage_kmpl": 16.8,
+    "seating": 5,
+    "safety_rating": 5,
+    "transmission": [
+      "Manual",
+      "IVT",
+      "DCT",
+      "AT"
+    ],
+    "use_case": [
+      "city",
+      "mixed",
+      "highway"
+    ],
+    "segment": "mid-suv",
+    "boot_space_litres": 433,
+    "engine_cc": 1497,
+    "variants": [
+      {
+        "name": "EX",
+        "price": 1100000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "Dual airbags",
+          "ABS",
+          "Manual AC"
+        ],
+        "is_base": true
+      },
+      {
+        "name": "S",
+        "price": 1299000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "10.25-inch screen",
+          "Rear camera",
+          "Auto AC",
+          "6 airbags"
+        ]
+      },
+      {
+        "name": "S(O)",
+        "price": 1449000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "Panoramic sunroof",
+          "Wireless charging",
+          "Ventilated seats"
+        ]
+      },
+      {
+        "name": "SX",
+        "price": 1649000,
+        "fuel_type": "Petrol",
+        "transmission": "IVT",
+        "key_features": [
+          "ADAS",
+          "Bose audio",
+          "360 camera",
+          "IVT auto"
+        ]
+      },
+      {
+        "name": "SX Tech",
+        "price": 1849000,
+        "fuel_type": "Petrol",
+        "transmission": "DCT",
+        "key_features": [
+          "1.5 Turbo DCT",
+          "All top features",
+          "ADAS"
+        ],
+        "is_top": true
+      },
+      {
+        "name": "SX Diesel AT",
+        "price": 2000000,
+        "fuel_type": "Diesel",
+        "transmission": "AT",
+        "key_features": [
+          "Diesel automatic",
+          "ADAS",
+          "Panoramic sunroof",
+          "All features"
+        ]
+      }
+    ],
+    "pros": [
+      "5-star Global NCAP safety",
+      "Best-selling mid-SUV in India",
+      "Premium panoramic sunroof",
+      "Strong highway performance"
+    ],
+    "cons": [
+      "Pricey top variants",
+      "Higher fuel consumption",
+      "Long waiting periods in some cities"
+    ],
+    "best_for": "Families who want a spacious premium SUV for both city and highway use",
+    "tags": [
+      "family",
+      "premium",
+      "highway",
+      "5-star-ncap",
+      "mid-suv",
+      "popular"
+    ],
+    "reviews": [
+      {
+        "author": "Rajesh T., Bangalore",
+        "rating": 5,
+        "text": "The SX Diesel AT is the complete package. Smooth automatic, ADAS keeps me safe in highway traffic, panoramic sunroof is brilliant. Worth the wait and price.",
+        "use_case": "Family highway travel"
+      },
+      {
+        "author": "Pooja N., Mumbai",
+        "rating": 5,
+        "text": "Best selling SUV for a reason. Premium cabin, 5-star safety, and Hyundai's service network means peace of mind. Kids love the sunroof on road trips.",
+        "use_case": "Family city and highway"
+      },
+      {
+        "author": "Sunil V., Hyderabad",
+        "rating": 4,
+        "text": "Great car but the top SX Tech variant is overpriced. The S(O) variant hits the sweet spot — sunroof, good features, without paying a premium for ADAS you rarely use.",
+        "use_case": "Daily driver + weekend trips"
+      }
+    ],
+    "image_url": "https://source.unsplash.com/800x500/?Hyundai+Creta+SUV"
+  },
+  {
+    "id": "kia-seltos",
+    "name": "Kia Seltos",
+    "brand": "Kia",
+    "price_min": 1099000,
+    "price_max": 2000000,
+    "price_display": "₹10.99L – ₹20L",
+    "body_type": "Mid SUV",
+    "fuel": [
+      "Petrol",
+      "Diesel"
+    ],
+    "mileage_kmpl": 16.5,
+    "seating": 5,
+    "safety_rating": 4,
+    "transmission": [
+      "Manual",
+      "IVT",
+      "DCT",
+      "AT"
+    ],
+    "use_case": [
+      "city",
+      "mixed",
+      "highway"
+    ],
+    "segment": "mid-suv",
+    "boot_space_litres": 433,
+    "engine_cc": 1497,
+    "variants": [
+      {
+        "name": "HTE",
+        "price": 1099000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "Dual airbags",
+          "ABS",
+          "Manual AC"
+        ],
+        "is_base": true
+      },
+      {
+        "name": "HTK",
+        "price": 1299000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "10.25-inch screen",
+          "Rear camera",
+          "6 airbags"
+        ]
+      },
+      {
+        "name": "HTK+",
+        "price": 1449000,
+        "fuel_type": "Petrol",
+        "transmission": "IVT",
+        "key_features": [
+          "IVT auto",
+          "Panoramic sunroof",
+          "Bose audio"
+        ]
+      },
+      {
+        "name": "HTX",
+        "price": 1649000,
+        "fuel_type": "Petrol",
+        "transmission": "DCT",
+        "key_features": [
+          "1.5 Turbo DCT",
+          "360 camera",
+          "Ventilated seats"
+        ]
+      },
+      {
+        "name": "HTX+",
+        "price": 1849000,
+        "fuel_type": "Petrol",
+        "transmission": "DCT",
+        "key_features": [
+          "ADAS",
+          "HUD",
+          "All features",
+          "Largest panoramic roof"
+        ],
+        "is_top": true
+      },
+      {
+        "name": "HTX Diesel AT",
+        "price": 2000000,
+        "fuel_type": "Diesel",
+        "transmission": "AT",
+        "key_features": [
+          "Diesel automatic",
+          "ADAS",
+          "All top features"
+        ]
+      }
+    ],
+    "pros": [
+      "Sporty and premium design",
+      "360-degree camera",
+      "Excellent infotainment system",
+      "Strong engine lineup"
+    ],
+    "cons": [
+      "Firm ride quality",
+      "Back seat slightly tight",
+      "Smaller service network"
+    ],
+    "best_for": "Style-conscious buyers who want a sporty premium SUV with cutting-edge tech",
+    "tags": [
+      "sporty",
+      "premium",
+      "tech-features",
+      "highway",
+      "mid-suv"
+    ],
+    "reviews": [
+      {
+        "author": "Arjun M., Pune",
+        "rating": 5,
+        "text": "HTX+ is the sportiest car I've owned. The 1.5 Turbo DCT pulls hard at every speed. Interior feels more premium than the Creta honestly. Kia has nailed the design.",
+        "use_case": "Performance + daily driving"
+      },
+      {
+        "author": "Meghna T., Delhi",
+        "rating": 4,
+        "text": "Bose sound system is outstanding. The panoramic sunroof is the biggest I've seen in this segment. Ride is a bit stiff on Delhi's broken roads though.",
+        "use_case": "City premium driving"
+      },
+      {
+        "author": "Ravi S., Bangalore",
+        "rating": 4,
+        "text": "Chose Seltos over Creta for the sportier look. No regrets — faster, better looking, better tech. Just wish Kia had more service centres near my area.",
+        "use_case": "City + weekend highway"
+      }
+    ],
+    "image_url": "https://source.unsplash.com/800x500/?Kia+Seltos+SUV"
+  },
+  {
+    "id": "tata-harrier",
+    "name": "Tata Harrier",
+    "brand": "Tata",
+    "price_min": 1499000,
+    "price_max": 2599000,
+    "price_display": "₹14.99L – ₹25.99L",
+    "body_type": "Mid-Large SUV",
+    "fuel": [
+      "Diesel"
+    ],
+    "mileage_kmpl": 14.6,
+    "seating": 5,
+    "safety_rating": 5,
+    "transmission": [
+      "Manual",
+      "AT"
+    ],
+    "use_case": [
+      "mixed",
+      "highway"
+    ],
+    "segment": "mid-suv",
+    "boot_space_litres": 425,
+    "engine_cc": 1956,
+    "variants": [
+      {
+        "name": "Smart",
+        "price": 1499000,
+        "fuel_type": "Diesel",
+        "transmission": "Manual",
+        "key_features": [
+          "6 airbags",
+          "10.25-inch screen",
+          "Rear camera"
+        ],
+        "is_base": true
+      },
+      {
+        "name": "Pure",
+        "price": 1699000,
+        "fuel_type": "Diesel",
+        "transmission": "Manual",
+        "key_features": [
+          "Auto AC",
+          "Wireless charging",
+          "Alloy wheels"
+        ]
+      },
+      {
+        "name": "Creative",
+        "price": 1999000,
+        "fuel_type": "Diesel",
+        "transmission": "Manual",
+        "key_features": [
+          "Panoramic sunroof",
+          "JBL audio",
+          "360 camera"
+        ]
+      },
+      {
+        "name": "Fearless",
+        "price": 2299000,
+        "fuel_type": "Diesel",
+        "transmission": "AT",
+        "key_features": [
+          "AT automatic",
+          "ADAS",
+          "Ventilated seats",
+          "All features"
+        ]
+      },
+      {
+        "name": "Fearless+",
+        "price": 2599000,
+        "fuel_type": "Diesel",
+        "transmission": "AT",
+        "key_features": [
+          "All Fearless features",
+          "Air purifier",
+          "Premium interiors"
+        ],
+        "is_top": true
+      }
+    ],
+    "pros": [
+      "5-star Global NCAP — highest in segment",
+      "Commanding road presence",
+      "Powerful diesel engine",
+      "Premium cabin quality"
+    ],
+    "cons": [
+      "Only diesel — no petrol option",
+      "Heavier fuel consumption in city",
+      "Not available as 7-seater"
+    ],
+    "best_for": "Buyers who want a safe, imposing diesel SUV for long highway trips",
+    "tags": [
+      "safest",
+      "highway",
+      "diesel",
+      "powerful",
+      "premium",
+      "mid-suv"
+    ],
+    "reviews": [
+      {
+        "author": "Vikram J., Chandigarh",
+        "rating": 5,
+        "text": "The Harrier looks absolutely stunning on the road. 5-star NCAP + powerful diesel = perfect highway machine. AT gearbox makes city driving easy too.",
+        "use_case": "Highway + city mixed use"
+      },
+      {
+        "author": "Aparna K., Hyderabad",
+        "rating": 5,
+        "text": "Feels like a ₹30L car but costs ₹22L. JBL audio, panoramic sunroof, ADAS — all at a great price. Build quality is the best I've seen from Tata.",
+        "use_case": "Premium family SUV"
+      },
+      {
+        "author": "Neeraj P., Lucknow",
+        "rating": 3,
+        "text": "Great highway car but diesel in city traffic is painful — 10-11 kmpl in Lucknow traffic is expensive. Wish Tata had a petrol option. The Fearless AT is pricey.",
+        "use_case": "Daily city commute"
+      }
+    ],
+    "image_url": "https://source.unsplash.com/800x500/?Tata+Harrier+SUV"
+  },
+  {
+    "id": "honda-city",
+    "name": "Honda City",
+    "brand": "Honda",
+    "price_min": 1199000,
+    "price_max": 1599000,
+    "price_display": "₹11.99L – ₹15.99L",
+    "body_type": "Sedan",
+    "fuel": [
+      "Petrol",
+      "Hybrid"
+    ],
+    "mileage_kmpl": 18.4,
+    "seating": 5,
+    "safety_rating": 4,
+    "transmission": [
+      "Manual",
+      "CVT"
+    ],
+    "use_case": [
+      "city",
+      "highway"
+    ],
+    "segment": "sedan",
+    "boot_space_litres": 506,
+    "engine_cc": 1498,
+    "variants": [
+      {
+        "name": "V",
+        "price": 1199000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "8-inch screen",
+          "Rear camera",
+          "Honda Sensing safety"
+        ],
+        "is_base": true
+      },
+      {
+        "name": "VX",
+        "price": 1349000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "Sunroof",
+          "LED headlamps",
+          "Wireless charging",
+          "Ventilated seats"
+        ]
+      },
+      {
+        "name": "ZX",
+        "price": 1499000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "ADAS",
+          "Bose audio",
+          "6 airbags",
+          "All features"
+        ],
+        "is_top": true
+      },
+      {
+        "name": "V CVT",
+        "price": 1299000,
+        "fuel_type": "Petrol",
+        "transmission": "CVT",
+        "key_features": [
+          "CVT automatic",
+          "8-inch screen",
+          "Honda Sensing"
+        ]
+      },
+      {
+        "name": "ZX Hybrid",
+        "price": 1599000,
+        "fuel_type": "Hybrid",
+        "transmission": "CVT",
+        "key_features": [
+          "e:HEV hybrid",
+          "26.5 kmpl ARAI",
+          "ADAS",
+          "All features"
+        ]
+      }
+    ],
+    "pros": [
+      "Largest boot space in class (506L)",
+      "Smooth CVT automatic",
+      "Refined highway cruising",
+      "Hybrid variant for excellent mileage"
+    ],
+    "cons": [
+      "Sedans losing popularity vs SUVs",
+      "Honda service network smaller than Maruti",
+      "Higher maintenance cost"
+    ],
+    "best_for": "Executives and highway drivers who prefer a refined, spacious sedan over an SUV",
+    "tags": [
+      "sedan",
+      "highway",
+      "executive",
+      "spacious",
+      "refined",
+      "hybrid"
+    ],
+    "reviews": [
+      {
+        "author": "Ananya S., Mumbai",
+        "rating": 5,
+        "text": "ZX Hybrid returns 24+ kmpl on highway. Fuel savings over 3 years will pay for the price premium easily. Honda Sensing ADAS is the best in this class.",
+        "use_case": "Highway and fuel efficiency"
+      },
+      {
+        "author": "Prakash R., Bangalore",
+        "rating": 5,
+        "text": "506L boot is insane. Moved home across cities with this car. CVT is silky smooth on long drives. The City has redefined what a sedan should feel like.",
+        "use_case": "Long highway drives"
+      },
+      {
+        "author": "Smita V., Chennai",
+        "rating": 4,
+        "text": "Elegant and refined but increasingly hard to justify over an SUV. Boot and rear seat space is class-leading. Honda service in Chennai is average — long waits.",
+        "use_case": "City executive car"
+      }
+    ],
+    "image_url": "https://source.unsplash.com/800x500/?Honda+City+sedan"
+  },
+  {
+    "id": "hyundai-verna",
+    "name": "Hyundai Verna",
+    "brand": "Hyundai",
+    "price_min": 1099000,
+    "price_max": 1799000,
+    "price_display": "₹10.99L – ₹17.99L",
+    "body_type": "Sedan",
+    "fuel": [
+      "Petrol"
+    ],
+    "mileage_kmpl": 17.2,
+    "seating": 5,
+    "safety_rating": 5,
+    "transmission": [
+      "Manual",
+      "IVT",
+      "DCT"
+    ],
+    "use_case": [
+      "city",
+      "highway"
+    ],
+    "segment": "sedan",
+    "boot_space_litres": 528,
+    "engine_cc": 1497,
+    "variants": [
+      {
+        "name": "EX",
+        "price": 1099000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "6 airbags",
+          "10.25-inch screen",
+          "Rear camera"
+        ],
+        "is_base": true
+      },
+      {
+        "name": "S",
+        "price": 1249000,
+        "fuel_type": "Petrol",
+        "transmission": "IVT",
+        "key_features": [
+          "IVT auto",
+          "Sunroof",
+          "Wireless charging",
+          "ADAS"
+        ]
+      },
+      {
+        "name": "SX",
+        "price": 1499000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "1.5 Turbo",
+          "Bose audio",
+          "Ventilated seats",
+          "Ambient lighting"
+        ]
+      },
+      {
+        "name": "SX(O)",
+        "price": 1649000,
+        "fuel_type": "Petrol",
+        "transmission": "DCT",
+        "key_features": [
+          "Turbo DCT",
+          "360 camera",
+          "HUD",
+          "All features"
+        ],
+        "is_top": true
+      },
+      {
+        "name": "SX(O) IVT",
+        "price": 1799000,
+        "fuel_type": "Petrol",
+        "transmission": "IVT",
+        "key_features": [
+          "IVT smooth auto",
+          "All SX(O) features",
+          "ADAS"
+        ]
+      }
+    ],
+    "pros": [
+      "5-star Global NCAP safety",
+      "Largest boot in segment (528L)",
+      "Premium panoramic sunroof in sedan",
+      "Strong turbocharged engine option"
+    ],
+    "cons": [
+      "Only petrol — no diesel",
+      "Sedan market shrinking in India",
+      "Slightly expensive for a sedan"
+    ],
+    "best_for": "Safety-focused buyers who want the space and refinement of a sedan with modern features",
+    "tags": [
+      "sedan",
+      "5-star-ncap",
+      "spacious",
+      "highway",
+      "premium"
+    ],
+    "reviews": [
+      {
+        "author": "Kedar B., Pune",
+        "rating": 5,
+        "text": "SX(O) Turbo DCT is a proper performance sedan. 0-100 in under 9 seconds, stunning looks, and 5-star NCAP. Nothing at this price comes close in performance.",
+        "use_case": "Performance + daily driving"
+      },
+      {
+        "author": "Archana M., Delhi",
+        "rating": 5,
+        "text": "528L boot is the biggest I have seen in any car at this price point. The sunroof on a sedan feels special. ADAS gives me real confidence driving on Delhi roads.",
+        "use_case": "City executive + family"
+      },
+      {
+        "author": "Pradeep L., Hyderabad",
+        "rating": 4,
+        "text": "Beautiful car, great features, but I question the sedan choice in 2024. My colleague's Creta has better ground clearance and costs similar. Still — no regrets.",
+        "use_case": "Premium daily driver"
+      }
+    ],
+    "image_url": "https://source.unsplash.com/800x500/?Hyundai+Verna+sedan"
+  },
+  {
+    "id": "maruti-ertiga",
+    "name": "Maruti Suzuki Ertiga",
+    "brand": "Maruti Suzuki",
+    "price_min": 899000,
+    "price_max": 1399000,
+    "price_display": "₹8.99L – ₹13.99L",
+    "body_type": "MPV",
+    "fuel": [
+      "Petrol",
+      "CNG"
+    ],
+    "mileage_kmpl": 20.3,
+    "seating": 7,
+    "safety_rating": 3,
+    "transmission": [
+      "Manual",
+      "AT"
+    ],
+    "use_case": [
+      "city",
+      "mixed",
+      "highway"
+    ],
+    "segment": "mpv",
+    "boot_space_litres": 209,
+    "engine_cc": 1462,
+    "variants": [
+      {
+        "name": "LXi",
+        "price": 899000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "7 seats",
+          "Manual AC",
+          "Basic stereo"
+        ],
+        "is_base": true
+      },
+      {
+        "name": "VXi",
+        "price": 1049000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "9-inch touchscreen",
+          "Rear camera",
+          "Auto AC"
+        ]
+      },
+      {
+        "name": "ZXi",
+        "price": 1149000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "LED headlamps",
+          "Alloy wheels",
+          "Cruise control"
+        ]
+      },
+      {
+        "name": "ZXi+",
+        "price": 1249000,
+        "fuel_type": "Petrol",
+        "transmission": "Manual",
+        "key_features": [
+          "360 camera",
+          "Auto headlamps",
+          "6 airbags"
+        ],
+        "is_top": true
+      },
+      {
+        "name": "ZXi AT",
+        "price": 1299000,
+        "fuel_type": "Petrol",
+        "transmission": "AT",
+        "key_features": [
+          "Automatic gearbox",
+          "LED headlamps",
+          "Alloy wheels"
+        ]
+      },
+      {
+        "name": "VXi CNG",
+        "price": 1399000,
+        "fuel_type": "CNG",
+        "transmission": "Manual",
+        "key_features": [
+          "Factory CNG 7-seater",
+          "9-inch screen",
+          "Auto AC"
+        ]
+      }
+    ],
+    "pros": [
+      "Most affordable 7-seater in India",
+      "CNG for very low running cost",
+      "Practical and spacious",
+      "Easy to drive despite the size"
+    ],
+    "cons": [
+      "3-star safety rating",
+      "Third row cramped for adults",
+      "Not exciting to drive"
+    ],
+    "best_for": "Large families who need 7 seats at a budget-friendly price with low running cost",
+    "tags": [
+      "7-seater",
+      "family",
+      "cng",
+      "budget",
+      "mpv",
+      "practical"
+    ],
+    "reviews": [
+      {
+        "author": "Suresh N., Coimbatore",
+        "rating": 5,
+        "text": "CNG Ertiga is the best family car for the price in India. 7 seats, ₹1.5/km running cost, and Maruti service everywhere. Used it for a 1200km road trip — zero issues.",
+        "use_case": "Large family road trips"
+      },
+      {
+        "author": "Kavitha R., Bangalore",
+        "rating": 4,
+        "text": "Perfect for school pickups with 4 kids. The automatic variant makes city driving easy. Only wish the third row had more legroom for adults.",
+        "use_case": "School runs + family use"
+      },
+      {
+        "author": "Mohan P., Jaipur",
+        "rating": 4,
+        "text": "Best 7-seater at this price, no competition. Safety rating is a concern but for budget-constrained large families there is nothing better in the market.",
+        "use_case": "Budget family 7-seater"
+      }
+    ],
+    "image_url": "https://source.unsplash.com/800x500/?Maruti+Ertiga+MPV"
+  },
+  {
+    "id": "toyota-innova-crysta",
+    "name": "Toyota Innova Crysta",
+    "brand": "Toyota",
+    "price_min": 1999000,
+    "price_max": 2699000,
+    "price_display": "₹19.99L – ₹26.99L",
+    "body_type": "MPV",
+    "fuel": [
+      "Petrol",
+      "Diesel"
+    ],
+    "mileage_kmpl": 15.1,
+    "seating": 7,
+    "safety_rating": 4,
+    "transmission": [
+      "Manual",
+      "AT"
+    ],
+    "use_case": [
+      "city",
+      "highway"
+    ],
+    "segment": "premium-mpv",
+    "boot_space_litres": 300,
+    "engine_cc": 2393,
+    "variants": [
+      {
+        "name": "GX",
+        "price": 1999000,
+        "fuel_type": "Diesel",
+        "transmission": "Manual",
+        "key_features": [
+          "7 seats",
+          "Touchscreen",
+          "Rear AC vents",
+          "Captain seats option"
+        ],
+        "is_base": true
+      },
+      {
+        "name": "VX",
+        "price": 2299000,
+        "fuel_type": "Diesel",
+        "transmission": "Manual",
+        "key_features": [
+          "Leather seats",
+          "Ambient lighting",
+          "Auto AC",
+          "Premium audio"
+        ]
+      },
+      {
+        "name": "ZX",
+        "price": 2499000,
+        "fuel_type": "Diesel",
+        "transmission": "AT",
+        "key_features": [
+          "AT automatic",
+          "Premium leather",
+          "360 camera",
+          "All features"
+        ],
+        "is_top": true
+      },
+      {
+        "name": "GX Petrol",
+        "price": 2099000,
+        "fuel_type": "Petrol",
+        "transmission": "AT",
+        "key_features": [
+          "Petrol AT",
+          "7 seats",
+          "Touchscreen"
+        ]
+      },
+      {
+        "name": "ZX Petrol",
+        "price": 2699000,
+        "fuel_type": "Petrol",
+        "transmission": "AT",
+        "key_features": [
+          "Premium petrol AT",
+          "All ZX features"
+        ]
+      }
+    ],
+    "pros": [
+      "Gold standard for reliability in India",
+      "Best-in-class ride quality",
+      "Premium 7-seater comfort",
+      "Strong diesel for long distances"
+    ],
+    "cons": [
+      "Expensive to buy",
+      "Dated exterior design",
+      "High fuel consumption in city"
+    ],
+    "best_for": "Families and business travellers who prioritise comfort, reliability, and long-distance capability",
+    "tags": [
+      "7-seater",
+      "highway",
+      "premium",
+      "reliable",
+      "family",
+      "business"
+    ],
+    "reviews": [
+      {
+        "author": "Narayan V., Delhi",
+        "rating": 5,
+        "text": "5 years, 1.2 lakh km, and this car hasn't skipped a beat. Toyota reliability is legendary for a reason. For a cab fleet or a family that travels a lot, nothing beats it.",
+        "use_case": "High mileage family travel"
+      },
+      {
+        "author": "Sheela M., Bangalore",
+        "rating": 5,
+        "text": "ZX AT is the most comfortable 7-seater I've sat in under ₹30L. Rear seats feel like first class. Perfect for long drives to Coorg or Ooty with the whole family.",
+        "use_case": "Luxury family road trips"
+      },
+      {
+        "author": "Tarun R., Mumbai",
+        "rating": 4,
+        "text": "Outrageously reliable but the design feels 10 years old. Fuel economy in Mumbai traffic is terrible — 9-10 kmpl. Best for highway use. City driving is a pain.",
+        "use_case": "Highway and outstation"
+      }
+    ],
+    "image_url": "https://source.unsplash.com/800x500/?Toyota+Innova+MPV"
+  },
+  {
+    "id": "tata-safari",
+    "name": "Tata Safari",
+    "brand": "Tata",
+    "price_min": 1599000,
+    "price_max": 2699000,
+    "price_display": "₹15.99L – ₹26.99L",
+    "body_type": "Large SUV",
+    "fuel": [
+      "Diesel"
+    ],
+    "mileage_kmpl": 14.5,
+    "seating": 6,
+    "safety_rating": 5,
+    "transmission": [
+      "Manual",
+      "AT"
+    ],
+    "use_case": [
+      "mixed",
+      "highway"
+    ],
+    "segment": "large-suv",
+    "boot_space_litres": 447,
+    "engine_cc": 1956,
+    "variants": [
+      {
+        "name": "Smart",
+        "price": 1599000,
+        "fuel_type": "Diesel",
+        "transmission": "Manual",
+        "key_features": [
+          "6 airbags",
+          "10.25-inch screen",
+          "Rear camera"
+        ],
+        "is_base": true
+      },
+      {
+        "name": "Pure",
+        "price": 1799000,
+        "fuel_type": "Diesel",
+        "transmission": "Manual",
+        "key_features": [
+          "Auto AC",
+          "Wireless charging",
+          "Alloy wheels",
+          "6 seats"
+        ]
+      },
+      {
+        "name": "Creative",
+        "price": 2099000,
+        "fuel_type": "Diesel",
+        "transmission": "Manual",
+        "key_features": [
+          "Panoramic sunroof",
+          "JBL audio",
+          "Captain seats",
+          "360 camera"
+        ]
+      },
+      {
+        "name": "Fearless",
+        "price": 2399000,
+        "fuel_type": "Diesel",
+        "transmission": "AT",
+        "key_features": [
+          "AT automatic",
+          "ADAS",
+          "Ventilated seats",
+          "Terrain modes"
+        ]
+      },
+      {
+        "name": "Fearless+",
+        "price": 2699000,
+        "fuel_type": "Diesel",
+        "transmission": "AT",
+        "key_features": [
+          "All features + air purifier",
+          "Premium interiors",
+          "ADAS"
+        ],
+        "is_top": true
+      }
+    ],
+    "pros": [
+      "5-star Global NCAP — safest large SUV",
+      "Premium 6-seat captain layout",
+      "Commanding road presence",
+      "Panoramic sunroof"
+    ],
+    "cons": [
+      "Only diesel available",
+      "High ownership cost",
+      "Slightly cramped third row"
+    ],
+    "best_for": "Families who want a safe, spacious premium SUV for weekend trips and highway driving",
+    "tags": [
+      "6-seater",
+      "5-star-ncap",
+      "highway",
+      "premium",
+      "large-suv",
+      "family"
+    ],
+    "reviews": [
+      {
+        "author": "Anand K., Pune",
+        "rating": 5,
+        "text": "Creative 6-seater with captain seats is the most premium car interior I've seen under ₹25L. JBL audio, panoramic sunroof, ADAS — this SUV has everything.",
+        "use_case": "Premium family SUV"
+      },
+      {
+        "author": "Smitha B., Bangalore",
+        "rating": 5,
+        "text": "5-star NCAP + captain seats + panoramic sunroof = perfect family SUV. My kids fight over the window seats. Drives beautifully on highways to Goa.",
+        "use_case": "Family highway travel"
+      },
+      {
+        "author": "Mahesh T., Chennai",
+        "rating": 3,
+        "text": "Great highway car but city fuel economy is 10-11 kmpl which is painful. Only diesel is a miss. Also the third row is barely usable for adults on long trips.",
+        "use_case": "Weekend highway trips only"
+      }
+    ],
+    "image_url": "https://source.unsplash.com/800x500/?Tata+Safari+SUV"
+  },
+  {
+    "id": "tata-nexon-ev",
+    "name": "Tata Nexon EV",
+    "brand": "Tata",
+    "price_min": 1399000,
+    "price_max": 1999000,
+    "price_display": "₹13.99L – ₹19.99L",
+    "body_type": "Compact SUV",
+    "fuel": [
+      "Electric"
+    ],
+    "mileage_kmpl": null,
+    "range_km": 465,
+    "seating": 5,
+    "safety_rating": 5,
+    "transmission": [
+      "Automatic"
+    ],
+    "use_case": [
+      "city",
+      "mixed"
+    ],
+    "segment": "ev",
+    "boot_space_litres": 350,
+    "engine_cc": null,
+    "variants": [
+      {
+        "name": "Creative LR",
+        "price": 1399000,
+        "fuel_type": "Electric",
+        "transmission": "Automatic",
+        "key_features": [
+          "40.5 kWh battery",
+          "465km range",
+          "10.25-inch screen",
+          "6 airbags"
+        ],
+        "is_base": true
+      },
+      {
+        "name": "Fearless LR",
+        "price": 1699000,
+        "fuel_type": "Electric",
+        "transmission": "Automatic",
+        "key_features": [
+          "Sunroof",
+          "Ventilated seats",
+          "ADAS",
+          "JBL audio"
+        ]
+      },
+      {
+        "name": "Fearless+ LR",
+        "price": 1999000,
+        "fuel_type": "Electric",
+        "transmission": "Automatic",
+        "key_features": [
+          "All top features",
+          "Dual-tone roof",
+          "360 camera",
+          "Air purifier"
+        ],
+        "is_top": true
+      }
+    ],
+    "pros": [
+      "Most popular EV in India — proven reliability",
+      "~₹1.5/km running cost vs ₹7–8/km petrol",
+      "5-star NCAP safety",
+      "465km range on full charge"
+    ],
+    "cons": [
+      "Charging infrastructure still limited outside cities",
+      "Long-distance travel needs planning",
+      "Higher upfront cost than petrol equivalent"
+    ],
+    "best_for": "Urban buyers with home charging who want to eliminate fuel costs on daily commutes",
+    "tags": [
+      "electric",
+      "ev",
+      "low-running-cost",
+      "city",
+      "5-star-ncap",
+      "eco-friendly"
+    ],
+    "reviews": [
+      {
+        "author": "Priya S., Bangalore",
+        "rating": 5,
+        "text": "Monthly electricity bill went up by ₹800, but I'm saving ₹6000 on petrol. ROI in 3 years easily. Charged at home every night — never needed a public charger for daily use.",
+        "use_case": "City daily commute with home charging"
+      },
+      {
+        "author": "Rohan M., Delhi",
+        "rating": 5,
+        "text": "465km range is more than enough for a week of city driving. ADAS + 5-star safety is brilliant. The instant torque of electric makes city overtaking so easy.",
+        "use_case": "City tech-forward buyer"
+      },
+      {
+        "author": "Girish P., Mumbai",
+        "rating": 3,
+        "text": "Great for city but I tried a highway trip to Pune — range anxiety is real. Planned charging stops and it worked, but takes mental effort. Best for pure city use.",
+        "use_case": "Mostly city, occasional highway"
+      }
+    ],
+    "image_url": "https://source.unsplash.com/800x500/?Tata+Nexon+electric"
+  },
+  {
+    "id": "mg-zs-ev",
+    "name": "MG ZS EV",
+    "brand": "MG",
+    "price_min": 1899000,
+    "price_max": 2499000,
+    "price_display": "₹18.99L – ₹24.99L",
+    "body_type": "Mid SUV",
+    "fuel": [
+      "Electric"
+    ],
+    "mileage_kmpl": null,
+    "range_km": 461,
+    "seating": 5,
+    "safety_rating": 4,
+    "transmission": [
+      "Automatic"
+    ],
+    "use_case": [
+      "city",
+      "mixed"
+    ],
+    "segment": "ev",
+    "boot_space_litres": 359,
+    "engine_cc": null,
+    "variants": [
+      {
+        "name": "Excite",
+        "price": 1899000,
+        "fuel_type": "Electric",
+        "transmission": "Automatic",
+        "key_features": [
+          "50.3 kWh battery",
+          "461km range",
+          "10.1-inch screen",
+          "Panoramic sunroof"
+        ],
+        "is_base": true
+      },
+      {
+        "name": "Exclusive",
+        "price": 2199000,
+        "fuel_type": "Electric",
+        "transmission": "Automatic",
+        "key_features": [
+          "360 camera",
+          "PM 2.5 air filter",
+          "Wireless charging",
+          "ADAS"
+        ]
+      },
+      {
+        "name": "Essence",
+        "price": 2499000,
+        "fuel_type": "Electric",
+        "transmission": "Automatic",
+        "key_features": [
+          "Premium leather",
+          "Level 2 ADAS",
+          "All features",
+          "Fast DC charging"
+        ],
+        "is_top": true
+      }
+    ],
+    "pros": [
+      "Premium cabin with large touchscreen",
+      "Fastest DC charging in segment",
+      "Spacious with panoramic sunroof",
+      "Good brand warranty support"
+    ],
+    "cons": [
+      "MG service network smaller than Tata",
+      "Pricier than Nexon EV",
+      "Chinese-owned brand concern for some buyers"
+    ],
+    "best_for": "Premium EV buyers who want more space and features than the Nexon EV",
+    "tags": [
+      "electric",
+      "ev",
+      "premium",
+      "city",
+      "spacious",
+      "fast-charging"
+    ],
+    "reviews": [
+      {
+        "author": "Akash N., Hyderabad",
+        "rating": 5,
+        "text": "The interior feels genuinely premium — better than even the Creta. Fast DC charging at 76kW is brilliant on road trips. MG's 8-year battery warranty is reassuring.",
+        "use_case": "Premium EV daily driver"
+      },
+      {
+        "author": "Divya M., Mumbai",
+        "rating": 4,
+        "text": "Panoramic sunroof + EV is a great combo. Dead silent at highway speeds. Only issue: there are 2 MG service centres in Mumbai and both have long wait times.",
+        "use_case": "City + weekend highway"
+      },
+      {
+        "author": "Siddharth B., Bangalore",
+        "rating": 4,
+        "text": "Switched from Nexon EV — more space, better features, more premium feel. MG brand perception is improving. Still wish they had more service points in tier-2 cities.",
+        "use_case": "Upgrade from entry EV"
+      }
+    ],
+    "image_url": "https://source.unsplash.com/800x500/?MG+ZS+electric+SUV"
+  },
+  {
+    "id": "hyundai-creta-ev",
+    "name": "Hyundai Creta Electric",
+    "brand": "Hyundai",
+    "price_min": 1799000,
+    "price_max": 2399000,
+    "price_display": "₹17.99L – ₹23.99L",
+    "body_type": "Mid SUV",
+    "fuel": [
+      "Electric"
+    ],
+    "mileage_kmpl": null,
+    "range_km": 473,
+    "seating": 5,
+    "safety_rating": 5,
+    "transmission": [
+      "Automatic"
+    ],
+    "use_case": [
+      "city",
+      "mixed",
+      "highway"
+    ],
+    "segment": "ev",
+    "boot_space_litres": 433,
+    "engine_cc": null,
+    "variants": [
+      {
+        "name": "Executive",
+        "price": 1799000,
+        "fuel_type": "Electric",
+        "transmission": "Automatic",
+        "key_features": [
+          "42 kWh battery",
+          "390km range",
+          "10.25-inch screen",
+          "6 airbags"
+        ],
+        "is_base": true
+      },
+      {
+        "name": "Smart",
+        "price": 1949000,
+        "fuel_type": "Electric",
+        "transmission": "Automatic",
+        "key_features": [
+          "51.4 kWh battery",
+          "473km range",
+          "V2L feature",
+          "Sunroof"
+        ]
+      },
+      {
+        "name": "Excellence",
+        "price": 2199000,
+        "fuel_type": "Electric",
+        "transmission": "Automatic",
+        "key_features": [
+          "ADAS level 2",
+          "Bose audio",
+          "Ventilated seats",
+          "360 camera"
+        ]
+      },
+      {
+        "name": "Excellence (O)",
+        "price": 2399000,
+        "fuel_type": "Electric",
+        "transmission": "Automatic",
+        "key_features": [
+          "All features",
+          "Premium interiors",
+          "V2L 3.6kW",
+          "Digital IRVM"
+        ],
+        "is_top": true
+      }
+    ],
+    "pros": [
+      "5-star NCAP safety",
+      "Longest range in class (473km)",
+      "V2L — power devices from the car",
+      "Hyundai reliability and service network"
+    ],
+    "cons": [
+      "Most expensive compact EV",
+      "Long waiting periods",
+      "Higher charging time vs MG"
+    ],
+    "best_for": "Tech-forward families who want the safest, most capable EV SUV for city and highway",
+    "tags": [
+      "electric",
+      "ev",
+      "5-star-ncap",
+      "highway",
+      "premium",
+      "long-range"
+    ],
+    "reviews": [
+      {
+        "author": "Karan T., Delhi",
+        "rating": 5,
+        "text": "V2L feature is genuinely useful — powered our campsite appliances on a Spiti trip. 473km range meant only one charging stop from Delhi to Chandigarh. Game-changer.",
+        "use_case": "Highway road trips with EV"
+      },
+      {
+        "author": "Nisha M., Bangalore",
+        "rating": 5,
+        "text": "5-star safety + Hyundai service = peace of mind. ADAS on the highway is fantastic. The Excellence variant justifies every rupee spent. Best EV in India right now.",
+        "use_case": "Premium tech-focused family"
+      },
+      {
+        "author": "Venkat R., Hyderabad",
+        "rating": 4,
+        "text": "Brilliant car but the waiting period was 4 months. Hyundai needs to ramp up production. Once you get it though — it redefines what a family car should be in 2024.",
+        "use_case": "Future-ready family car"
+      }
+    ],
+    "image_url": "https://source.unsplash.com/800x500/?Hyundai+Creta+electric"
+  }
+]
