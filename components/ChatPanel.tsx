@@ -105,31 +105,10 @@ export default function ChatPanel({ isOpen, onClose, cars, onHighlightCar }: Cha
     }
   };
 
-  const renderInline = (text: string, keyPrefix: string) => {
-    // Split by bold and car cards
-    const parts = text.split(/(\*\*[^*]+\*\*|\[CAR_CARD:\s*[^\]]+?\s*\])/g);
+  const renderInline = (text: string, keyPrefix: string): React.ReactNode[] => {
+    // Split by bold markers
+    const parts = text.split(/(\*\*[^*]+\*\*)/g);
     return parts.map((part, i) => {
-      // Car card
-      const carMatch = part.match(/^\[CAR_CARD:\s*([^\]]+?)\s*\]$/);
-      if (carMatch) {
-        const car = cars.find((c) => c.id === carMatch[1].trim());
-        if (car) {
-          return (
-            <button
-              key={`${keyPrefix}-${i}`}
-              onClick={() => onHighlightCar(car.id)}
-              className="inline-flex items-center gap-1 text-blue-600 font-semibold hover:underline cursor-pointer"
-            >
-              {car.name}
-              <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-              </svg>
-            </button>
-          );
-        }
-        return <span key={`${keyPrefix}-${i}`} className="text-blue-600 font-medium">{carMatch[1]}</span>;
-      }
-      // Bold
       if (/^\*\*[^*]+\*\*$/.test(part)) {
         return <strong key={`${keyPrefix}-${i}`} className="font-semibold">{part.slice(2, -2)}</strong>;
       }
@@ -139,7 +118,50 @@ export default function ChatPanel({ isOpen, onClose, cars, onHighlightCar }: Cha
   };
 
   const renderMessage = (content: string) => {
-    const lines = content.split("\n");
+    // Pre-process: extract all [CAR_CARD:id] and replace with placeholder tokens
+    const carCardMap: Record<string, string> = {};
+    let processedContent = content.replace(/\[CAR_CARD:\s*([^\]]+?)\s*\]/g, (match, carId) => {
+      const token = `__CAR_${carId.trim()}__`;
+      carCardMap[token] = carId.trim();
+      return token;
+    });
+    // Build regex to find car tokens in text
+    const carTokens = Object.keys(carCardMap);
+    const carTokenRegex = carTokens.length > 0
+      ? new RegExp(`(${carTokens.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`, 'g')
+      : null;
+
+    const renderWithCarCards = (text: string, keyPrefix: string): React.ReactNode[] => {
+      if (!carTokenRegex || !carTokens.some(t => text.includes(t))) {
+        return renderInline(text, keyPrefix);
+      }
+      const parts = text.split(carTokenRegex);
+      return parts.map((part, i) => {
+        if (carCardMap[part]) {
+          const carId = carCardMap[part];
+          const car = cars.find((c) => c.id === carId);
+          if (car) {
+            return (
+              <button
+                key={`${keyPrefix}-car-${i}`}
+                onClick={() => onHighlightCar(car.id)}
+                className="inline-flex items-center gap-1 text-blue-600 font-semibold hover:underline cursor-pointer"
+              >
+                {car.name}
+                <svg className="w-3 h-3 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </button>
+            );
+          }
+          return <span key={`${keyPrefix}-car-${i}`} className="text-blue-600 font-medium">{carId}</span>;
+        }
+        if (!part) return null;
+        return <>{renderInline(part, `${keyPrefix}-${i}`)}</>;
+      });
+    };
+
+    const lines = processedContent.split("\n");
     const elements: React.ReactNode[] = [];
     let listItems: { text: string; indent: number }[] = [];
     let listType: "ul" | "ol" | null = null;
@@ -152,7 +174,7 @@ export default function ChatPanel({ isOpen, onClose, cars, onHighlightCar }: Cha
         <Tag key={`list-${elements.length}`} className={`${listClass} pl-4 my-1 space-y-0.5`}>
           {listItems.map((item, j) => (
             <li key={j} className={item.indent > 0 ? "ml-4" : ""}>
-              {renderInline(item.text, `li-${elements.length}-${j}`)}
+              {renderWithCarCards(item.text, `li-${elements.length}-${j}`)}
             </li>
           ))}
         </Tag>
@@ -192,12 +214,15 @@ export default function ChatPanel({ isOpen, onClose, cars, onHighlightCar }: Cha
         continue;
       }
 
+      // Skip markdown table separator lines (| --- | --- |)
+      if (/^\|[\s\-|]+\|$/.test(trimmed)) continue;
+
       // Headings: ## text
       const headingMatch = trimmed.match(/^#{1,3}\s+(.*)/);
       if (headingMatch) {
         elements.push(
           <p key={`h-${i}`} className="font-semibold mt-1">
-            {renderInline(headingMatch[1], `h-${i}`)}
+            {renderWithCarCards(headingMatch[1], `h-${i}`)}
           </p>
         );
         continue;
@@ -206,7 +231,7 @@ export default function ChatPanel({ isOpen, onClose, cars, onHighlightCar }: Cha
       // Regular line
       elements.push(
         <p key={`p-${i}`}>
-          {renderInline(trimmed, `p-${i}`)}
+          {renderWithCarCards(trimmed, `p-${i}`)}
         </p>
       );
     }
