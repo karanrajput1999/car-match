@@ -63,6 +63,15 @@ body {
   display: none;
 }
 
+/* Hide textarea scrollbar but keep scrolling */
+textarea::-webkit-scrollbar {
+  display: none;
+}
+textarea {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 /* Gradient text */
 .gradient-text {
   background: linear-gradient(135deg, #2563eb, #7c3aed);

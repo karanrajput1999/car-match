@@ -105,19 +105,20 @@ export default function ChatPanel({ isOpen, onClose, cars, onHighlightCar }: Cha
     }
   };
 
-  const renderInlineMarkdown = (text: string, keyPrefix: string) => {
-    // Handle bold (**text**) and car cards [CAR_CARD:id]
-    const parts = text.split(/(\*\*[^*]+\*\*|\[CAR_CARD:[^\]]+\])/g);
+  const renderInline = (text: string, keyPrefix: string) => {
+    // Split by bold and car cards
+    const parts = text.split(/(\*\*[^*]+\*\*|\[CAR_CARD:\s*[^\]]+?\s*\])/g);
     return parts.map((part, i) => {
-      const carMatch = part.match(/^\[CAR_CARD:([^\]]+)\]$/);
+      // Car card
+      const carMatch = part.match(/^\[CAR_CARD:\s*([^\]]+?)\s*\]$/);
       if (carMatch) {
-        const car = cars.find((c) => c.id === carMatch[1]);
+        const car = cars.find((c) => c.id === carMatch[1].trim());
         if (car) {
           return (
             <button
               key={`${keyPrefix}-${i}`}
               onClick={() => onHighlightCar(car.id)}
-              className="inline-flex items-center gap-1 bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full text-sm font-medium hover:bg-blue-200 transition-colors mx-0.5 cursor-pointer"
+              className="inline-flex items-center gap-1 text-blue-600 font-semibold hover:underline cursor-pointer"
             >
               {car.name}
               <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -128,9 +129,11 @@ export default function ChatPanel({ isOpen, onClose, cars, onHighlightCar }: Cha
         }
         return <span key={`${keyPrefix}-${i}`} className="text-blue-600 font-medium">{carMatch[1]}</span>;
       }
+      // Bold
       if (/^\*\*[^*]+\*\*$/.test(part)) {
         return <strong key={`${keyPrefix}-${i}`} className="font-semibold">{part.slice(2, -2)}</strong>;
       }
+      if (!part) return null;
       return <span key={`${keyPrefix}-${i}`}>{part}</span>;
     });
   };
@@ -149,7 +152,7 @@ export default function ChatPanel({ isOpen, onClose, cars, onHighlightCar }: Cha
         <Tag key={`list-${elements.length}`} className={`${listClass} pl-4 my-1 space-y-0.5`}>
           {listItems.map((item, j) => (
             <li key={j} className={item.indent > 0 ? "ml-4" : ""}>
-              {renderInlineMarkdown(item.text, `li-${elements.length}-${j}`)}
+              {renderInline(item.text, `li-${elements.length}-${j}`)}
             </li>
           ))}
         </Tag>
@@ -194,7 +197,7 @@ export default function ChatPanel({ isOpen, onClose, cars, onHighlightCar }: Cha
       if (headingMatch) {
         elements.push(
           <p key={`h-${i}`} className="font-semibold mt-1">
-            {renderInlineMarkdown(headingMatch[1], `h-${i}`)}
+            {renderInline(headingMatch[1], `h-${i}`)}
           </p>
         );
         continue;
@@ -203,7 +206,7 @@ export default function ChatPanel({ isOpen, onClose, cars, onHighlightCar }: Cha
       // Regular line
       elements.push(
         <p key={`p-${i}`}>
-          {renderInlineMarkdown(trimmed, `p-${i}`)}
+          {renderInline(trimmed, `p-${i}`)}
         </p>
       );
     }
@@ -259,7 +262,7 @@ export default function ChatPanel({ isOpen, onClose, cars, onHighlightCar }: Cha
                 <button
                   key={q}
                   onClick={() => sendMessage(q)}
-                  className="block w-full text-left px-3 py-2 text-sm text-gray-700 bg-gray-50 hover:bg-blue-50 hover:text-blue-700 rounded-lg transition-colors border border-gray-200"
+                  className="block w-full text-left px-3 py-2 text-sm text-gray-700 bg-gray-50 hover:bg-blue-50 hover:text-blue-700 rounded-lg transition-colors border border-gray-200 cursor-pointer"
                 >
                   {q}
                 </button>
@@ -322,7 +325,7 @@ export default function ChatPanel({ isOpen, onClose, cars, onHighlightCar }: Cha
               }
             }}
             placeholder="Ask about cars..."
-            className="flex-1 px-4 py-2.5 bg-gray-100 rounded-2xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-white resize-none overflow-y-auto"
+            className="flex-1 px-4 py-2.5 bg-white border border-gray-300 rounded-2xl text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 resize-none overflow-y-auto"
             rows={1}
             style={{ maxHeight: "120px" }}
             disabled={isLoading}

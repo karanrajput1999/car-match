@@ -111,9 +111,17 @@ export async function POST(req: NextRequest) {
       }
     }
 
+    // Update summary if budget filter removed all cars
+    let summary = parsed.summary || "";
+    if (matchedCars.length === 0 && matchedIds.length > 0 && budgetStr) {
+      summary = `No cars found within your budget of ${budgetStr}. Try increasing your budget or adjusting other filters.`;
+    } else if (matchedCars.length < matchedIds.length && budgetStr) {
+      summary = `Showing ${matchedCars.length} car${matchedCars.length !== 1 ? "s" : ""} that fit within your budget of ${budgetStr}.`;
+    }
+
     return NextResponse.json({
       cars: matchedCars,
-      summary: parsed.summary || "",
+      summary,
       interpreted_needs: parsed.interpreted_needs || {},
       total: matchedCars.length,
     });
